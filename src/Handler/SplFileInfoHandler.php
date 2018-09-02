@@ -22,12 +22,12 @@ class SplFileInfoHandler implements SubscribingHandlerInterface
             array(
                 'direction' => GraphNavigator::DIRECTION_SERIALIZATION,
                 'format' => 'xml',
-                'type' => 'HelpPC\CzechDataBox\Utils\SplFileInfo',
+                'type' => 'HelpPC\Serializer\Utils\SplFileInfo',
                 'method' => 'serializeSplFileInfoXml',
             ), array(
                 'direction' => GraphNavigator::DIRECTION_DESERIALIZATION,
                 'format' => 'xml',
-                'type' => 'HelpPC\CzechDataBox\Utils\SplFileInfo',
+                'type' => 'HelpPC\Serializer\Utils\SplFileInfo',
                 'method' => 'deserializeXml2SplFileInfo',
             ),
         );
