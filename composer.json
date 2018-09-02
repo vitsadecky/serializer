@@ -1,0 +1,33 @@
+{
+  "name": "helppc/serializer",
+  "homepage": "http://tirus.cz",
+  "description": "",
+  "keywords": [
+    "isds",
+    "datovky"
+  ],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Tomas Kulhanek",
+      "homepage": "http://tirus.cz"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "jms/serializer": "^1.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "HelpPC\\Serializer\\": "src/"
+    }
+  },
+  "suggest": {
+    "ext-xml": "for parsing zfo message to entity"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.10.3",
+    "nette/tester": "^2.0"
+  }
+}
