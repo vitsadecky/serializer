@@ -3,15 +3,15 @@
   "homepage": "http://tirus.cz",
   "description": "",
   "keywords": [
-    "isds",
-    "datovky"
+    "json",
+    "xml",
+    "binaryContent"
   ],
   "type": "library",
-  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Tomas Kulhanek",
-      "homepage": "http://tirus.cz"
+      "homepage": "https://tirus.cz"
     }
   ],
   "require": {
@@ -24,7 +24,7 @@
     }
   },
   "suggest": {
-    "ext-xml": "for parsing zfo message to entity"
+    "ext-xml": "for parsing xml"
   },
   "require-dev": {
     "phpstan/phpstan": "^0.10.3",
